@@ -2,3 +2,8 @@
     font-size: larger;
     color: coral;
 }
+
+.photo {
+    height: 50px;
+    width: 50px;
+}

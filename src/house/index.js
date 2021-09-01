@@ -1,4 +1,4 @@
-import "./house.css"
+import "./house.css";
 
 const House = ({house}) => {
     return ( 
@@ -11,7 +11,7 @@ const House = ({house}) => {
             </div>
             <div className="row">
                 <div className="col-md-7">
-                    <img src={'/images/${house.photo}.jpeg'} alt="House"/>
+                    <img src={`../images/${house.photo}.jpeg`} alt="House IMG Not Found"/>
                 </div>
                 <div className="col-md-5">
                     <p className="price">${house.price}</p>
@@ -20,6 +20,6 @@ const House = ({house}) => {
             </div>
         </div>
      );
-}
+};
  
 export default House;

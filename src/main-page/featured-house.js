@@ -1,4 +1,4 @@
-import House from "../House";
+import House from "../house";
 
 const FeatureHouse = ({house}) => {
     if (house)
